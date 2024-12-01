@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon espace</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="d-flex justify-content-between bg-green align-items-center">
+
+        <img src="image/logo.jpeg" alt="logo association" class="border logo">
+        
+        <h1 class=" colorw "> Amis de la Forêt </h1>
+
+        <div class="tab">
+            <button class="tablinks" onclick="onglet(event, 'accueil')">Accueil</button>
+            <button class="tablinks" onclick="onglet(event, 'nosActions')">Nos actions</button>
+            <button class="tablinks" onclick="onglet(event, 'informations')">Informations</button>
+            <button class="tablinks" onclick="onglet(event, 'monEspace')">Mon espace</button>
+          </div>
+          
+          <div id="accueil" class="tabcontent">
+            <a href="Accueil.html"> Accueil</a><br>
+            <a href="nosactions.html"> Nos actions</a><br>
+            <a href="#"> Informations</a><br>
+            <a href="monespace.html"> Mon espace</a>
+          </div>
+          <div id="nosActions" class="tabcontent">
+            <a href="nosactions.html"> Nos actions</a><br>
+            <a href="#"> Nos interventions</a><br>
+            <a href="#"> Projet a venir</a><br>
+            <a href="#"> Image et vidéo</a>
+          </div>
+          <div id="informations" class="tabcontent">
+            <a href="#"> Qui sommes nous </a><br>
+            <a href="#"> Nous rencontrer</a><br>
+            <a href="#"> Soutenez-nous</a>
+          </div>
+          <div id="monEspace" class="tabcontent">
+            <a href="monespace.html"> Mon espace</a><br>
+          </div>
+        </div>
+      
+        <button class="margin-right-30 button" onclick="toggle()">Mode Sombre</button>
+    </header>
+
+
+    <form action="" method="post" enctype="multipart/form-data" >  
+        
+        <div>
+    
+            <label for="pseudo"> Pseudo </label>
+            <input type="text" id="pseudo" name="pseudo" placeholder="Votre pseudo">
+
+        </div>
+        <div>
+            <label for="email"> Email</label>
+            <input type="email" id="email" name="email" placeholder="Votre email">
+
+        </div>
+        <div>
+            <label for="password"> Mot de passe</label>
+            <input type="password" id="password" name="password" placeholder="Votre mot de passe">
+
+        </div>
+        <div>
+            <label for="passcheck"> Confirmer le mot de passe </label>
+            <input type="password" id="passcheck" name="passcheck" placeholder="Confirmer le mot de passe">
+
+        </div>
+
+
+        <div>
+            <input type="checkbox" name="garderCode" id="garderCode">
+            <label for="ceSouvenirdemoi"> Ce souvenir du mot de passe</label>
+        </div>
+
+        <div>
+            <input type="checkbox" name="garderCode" id="garderCode">
+            <label for="nePasCeSouvenirDeMoi"> Ne plus afficher ce message </label>
+        </div>
+
+        
+        <button type="submit">Envoyer</button>
+    
+    </form>
+
+    <footer class="d-flex flex-column justify-content-center bg-green" id="values">
+        <br>
+        <div class="margin-left-30">
+            <h3>Suivez-nous :</h3>
+            <a href="#">Facebook |</a>
+            <a href="#">Twitter |</a>
+            <a href="#">Instagram |</a>
+        </div>
+        <br>
+        <div class="d-flex flex-column align-items-center justify-content-center large">
+            <h3>Soutenez-nous :</h3>
+            <p>Faites un don pour aider nos animaux dans le besoin, chaque contribution compte !</p>
+        </div>
+        <br>
+        <div class="d-flex align-items-end flex-column margin-right-30 
+        ">
+            <h3>Contactez-nous :</h3>
+            <p>Téléphone : <a href="#">+12 345 678 9</a></p>
+            <p>Email : <a href="#">Amisdelaforet@gmail.com</a></p>
+        </div>
+        <br>
+    </footer>
+   
+
+
+    <script src="main.js"></script>
+</body>
+</html>

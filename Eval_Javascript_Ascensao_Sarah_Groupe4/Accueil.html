@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Accueil</title>
+</head>
+<body>
+    
+    <header class="d-flex justify-content-between bg-green align-items-center">
+
+        <img src="image/logo.jpeg" alt="logo association" class="border logo">
+        
+        <h1 class=" colorw "> Amis de la Forêt </h1>
+
+        <div class="tab">
+            <button class="tablinks" onclick="onglet(event, 'accueil')">Accueil</button>
+            <button class="tablinks" onclick="onglet(event, 'nosActions')">Nos actions</button>
+            <button class="tablinks" onclick="onglet(event, 'informations')">Informations</button>
+            <button class="tablinks" onclick="onglet(event, 'monEspace')">Mon espace</button>
+          </div>
+          
+          <div id="accueil" class="tab-content">
+            <a href="Accueil.html"> Accueil</a><br>
+            <a href="nosactions.html"> Nos actions</a><br>
+            <a href="#"> Informations</a><br>
+            <a href="monespace.html"> Mon espace</a>
+          </div>
+          <div id="nosActions" class="tab-content">
+            <a href="nosactions.html"> Nos actions</a><br>
+            <a href="#"> Nos interventions</a><br>
+            <a href="#"> Projet a venir</a><br>
+            <a href="#"> Image et vidéo</a>
+          </div>
+          <div id="informations" class="tab-content">
+            <a href="#"> Qui sommes nous </a><br>
+            <a href="#"> Nous rencontrer</a><br>
+            <a href="#"> Soutenez-nous</a>
+          </div>
+          <div id="monEspace" class="tab-content">
+            <a href="monespace.html"> Mon espace</a><br>
+          </div>
+        </div>
+      
+        <button class="margin-right-30 button" onclick="toggle()">Mode Sombre</button>
+    </header>
+
+    <br>
+    <br>
+    <br>
+
+    <section class="d-flex justify-content-center align-items-center">
+
+        <div class="d-flex flex-column colorw margin-right justify-content-center bg-green large padding w-50">
+            <p> Bienvenue chez Amis de la Forêt, une association engagée pour la protection et la préservation des animaux et de la biodiversité de nos forêts. Notre mission est de sensibiliser le public aux enjeux environnementaux, de défendre les droits des espèces menacées et de promouvoir des pratiques durables.
+                <br>
+            Nos forêts abritent une incroyable variété de faune et de flore, mais elles sont confrontées à de nombreuses menaces, telles que la déforestation, le braconnage et le changement climatique. Chez Amis de la Forêt, nous croyons que chaque espèce joue un rôle essentiel dans l'équilibre de notre écosystème.</p>
+        </div>
+       
+    
+        <div class="margin-right">
+            <img src="image/pdc.png" alt="Photo d'un cerf">
+        </div>
+        
+    </section>
+
+    <br>
+    <br>
+
+    
+        <section class="d-flex flex-column align-items-start bg-brown " id="values">
+       
+            <ul class="d-flex ">
+                <li>
+                    <span> <img class="" src="image/photo sanglier.jpeg" alt="Mammiferes"></span>
+                    <h4> Les Mammiferes  </h4>
+                    <br>
+                    <p>Les forêts abritent une diversité fascinante de mammifères, chacun jouant un rôle vital dans l'écosystème. Cerf : Majestueux herbivore, il régule la végétation et constitue une proie pour les prédateurs. Sanglier : Omnivore adaptable, il aide à la régénération des sols en fouillant. Renard : Prédateur agile, il maintient l'équilibre des populations de petits animaux. Blaireau : Mammifère nocturne, il aère le sol et disperse les graines. Loup : Prédateur au sommet, il régule les populations d'herbivores.
+                    </p>
+                </li>
+                <li>
+                    <span> <img class="" src="image/photo oiseaux.jpg" alt="photo oiseaux"></span>
+                    <h4> Les Oiseaux  </h4>
+                    <br>
+                    <p> Les forêts abritent une riche diversité d'oiseaux, chacun jouant un rôle vital  dans l'écosystème.
+                        Rouge-gorge : Avec sa poitrine orange, il enchante avec son chant mélodieux.
+                       
+                        Pic : Ce foréteur utilise son bec puissant pour dénicher des insectes sous l'écorce.
+                       
+                        Chouette : Prédateur nocturne, elle aide à contrôler les populations de rongeurs.
+                       
+                        Mésange : Agile et joyeuse, elle se nourrit de graines et d'insectes, ajoutant de la vie à la forêt.
+                       
+                        Faucon : Chasseur rapide, il plane au-dessus des arbres à la recherche de proies.</p>
+                </li>
+                <li class="">
+                    <span> <img class="" src="image/photo libellule.jpg" alt="photo libellule"></span>
+                    <h4> Les Insectes  </h4>
+                    <br>
+                 <p> Les forêts regorgent d'insectes essentiels à l'écosystème :
+
+                    Abeilles : Pollinisateurs clés qui aident à la reproduction des plantes.
+                   
+                    Fourmis : Aèrent le sol et décomposent la matière organique.
+                   
+                    Papillons : Beaux pollinisateurs qui enrichissent la biodiversité.
+                   
+                    Coléoptères : Décomposent la matière organique, recyclant les nutriments.</p>
+                </li>
+                <li >
+                <span> <img src="image/photo grenouille.jpg" alt="photo grenouille"></span>
+                <h4> Les Amphibiens  </h4>
+                <br>
+                <p> Les amphibiens, comme les grenouilles, crapauds et salamandres, sont essentiels aux écosystèmes forestiers.
+
+                    Grenouilles : Chasseurs d'insectes, elles régulent leurs populations et indiquent la qualité de l'eau.
+                   
+                    Crapauds : Adaptés à la terre et à l'eau, ils contribuent à l'équilibre en se nourrissant d'insectes.
+                   
+                    Salamandres : Créatures nocturnes, elles aident à la décomposition de la matière organique.</p>
+                </li>
+
+            </ul>
+        
+        </section>
+
+    <br>
+    <br>
+    <br>
+
+     <section class="d-flex align-items-center justify-content-center">
+
+        <img src="image/photo renard qui dort.jpeg" alt="renard "> 
+        
+        <div class="d-flex flex-column justify-content-center align-items-center colorw w-50 padding bg-green large ">
+                <h1>Notre Engagement pour la Protection des Animaux de la Forêt</h1>
+                <br>
+                <p>
+                    Notre association se consacre à la préservation de la biodiversité et à la défense des espèces menacées dans nos forêts. Grâce à des programmes de sensibilisation, des actions de sauvegarde et des initiatives de réhabilitation des habitats, nous travaillons sans relâche pour garantir un avenir serein aux animaux qui peuplent nos écosystèmes forestiers.
+                    
+                    Nous croyons fermement que chaque espèce joue un rôle essentiel dans l'équilibre de la nature. En collaborant avec des partenaires locaux, des chercheurs et des bénévoles passionnés, nous mettons en place des projets concrets pour protéger la faune, sensibiliser le public et restaurer les habitats dégradés.
+                    
+                    Rejoignez-nous dans notre lutte pour la protection des animaux de la forêt. Ensemble, nous pouvons faire la différence et assurer la pérennité de notre patrimoine naturel pour les générations futures.
+                </p>
+                <br> 
+                <nav class="d-flex  margin-left body">
+                    <a href="nosactions.html"><h1>En savoir plus</h1></a>
+                </nav>
+        </div>
+            
+        <img src="image/photo loup.jpeg" alt="loup ">
+
+    </section>
+
+    <br>
+    <br>
+
+    <footer class="d-flex flex-column justify-content-center bg-green" id="values">
+        <br>
+        <div class="margin-left-30">
+            <h3>Suivez-nous :</h3>
+            <a href="#">Facebook |</a>
+            <a href="#">Twitter |</a>
+            <a href="#">Instagram |</a>
+        </div>
+        <br>
+        <div class="d-flex flex-column align-items-center justify-content-center large">
+            <h3>Soutenez-nous :</h3>
+            <p>Faites un don pour aider nos animaux dans le besoin, chaque contribution compte !</p>
+        </div>
+        <br>
+        <div class="d-flex align-items-end flex-column margin-right-30 
+        ">
+            <h3>Contactez-nous :</h3>
+            <p>Téléphone : <a href="#">+12 345 678 9</a></p>
+            <p>Email : <a href="#">Amisdelaforet@gmail.com</a></p>
+        </div>
+        <br>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
